@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- عنوان الصفحة -->
+    <header>
+        <h1>Gossips El ma3mora</h1>
+        <h4>5dmet shabab</h4>
+    </header>
+
+    <!-- صفحة التعليمات -->
+    <div id="instructions" class="page1">
+        <h1>تعليمات</h1>
+        <ul>
+            <li>+ هنتبسط سوا +</li>
+            <li>+ خليك عميق او تافه + </li>
+            <li>+ ممكن تستعين بصديق لو نسيت + </li>
+        </ul>
+        <button id="startButton">يلا بينا</button>
+    </div>
+
+    <!-- صفحة الأسئلة -->
+    <div id="questions" class="page" style="display: none;">
+        <h2>دوس عليا و جاوب</h2>
+        <div class="cards-container">
+            <div class="card" data-index="0">ما هي أكثر شائعة غريبة سمعتها عن نفسك؟</div>
+            <div class="card" data-index="1">من الشخص الذي يلهمك؟</div>
+            <div class="card" data-index="2">إيه هي النصيحة التي كان نفسك تسمعها من زمان؟</div>
+            <div class="card" data-index="3">لو عندك فرصه ترجع للماضى هترجع تغير ايه؟</div>
+            <div class="card" data-index="4">سؤال انترفيو: شايف نفسك فين كمان خمس سنين؟</div>
+        </div>
+    </div>
+
+    <!-- صفحة النهاية -->
+    <div id="end" class="pagef" style="display: none;">
+        <h1>شكراً جداً لوقتك يا عزيزي</h1>
+        <p>اتبسطنا أوي معاك ، الأسئلة خلصت بس لسه كلامنا مكمل ... خدمه شباب</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
